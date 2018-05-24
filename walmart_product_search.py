@@ -18,8 +18,7 @@ def product_search(key_item):
 
     return list(min(product_info.items(), key=itemgetter(1)))
 
-print(product_search("MacBook Pro")[0])
-print(product_search("MacBook Pro")[1])
+
 
 
 
